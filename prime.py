@@ -1,7 +1,7 @@
 import math
 def isprime(num):
     if(num%2 == 0):
-        return "yes"
+        return "no"
     for i in range(3,int(math.sqrt(num))):
         if(num% i == 0):
             return "no"
