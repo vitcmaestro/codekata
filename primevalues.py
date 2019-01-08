@@ -1,7 +1,11 @@
 import math
 
 def isprime(val):
-    if(val%2 == 0):
+    if(val == 1):
+        return False
+    elif(val == 2):
+        return False
+    elif(val%2 == 0):
         return False
     else:
         for i in range(3,int(math.sqrt(val))+1):
@@ -18,4 +22,5 @@ for i in range(a,b):
             print(" ",end="")
         print(i,end="")
         c+=1
+                
                 
