@@ -4,7 +4,7 @@ def isprime(val):
     if(val == 1):
         return False
     elif(val == 2):
-        return False
+        return True
     elif(val%2 == 0):
         return False
     else:
