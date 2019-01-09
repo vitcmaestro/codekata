@@ -36,4 +36,6 @@ n = int(input(""))
 arr = list(map(int,input().split()))
 mergeSort(arr)
 for i in range(len(arr)):
-    print(arr[i],end=" ")
+    if(i!=0):
+         print(" ",end="")
+      print(arr[i],end="")
