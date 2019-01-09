@@ -38,4 +38,4 @@ mergeSort(arr)
 for i in range(len(arr)):
     if(i!=0):
          print(" ",end="")
-      print(arr[i],end="")
+    print(arr[i],end="")
